@@ -8,7 +8,7 @@ namespace DAO.EntityFramework.Context
     {
         public DDSORMDbContext() : base("DDORMCnnStr")
         {
-            Database.SetInitializer(new MySqlInitializer());
+            Database.SetInitializer(new MySqlInitializer<DropCreateDatabaseAlways<DDSORMDbContext> ());
             //Database.SetInitializer(new DropCreateDatabaseAlways<DDSORMDbContext>());
         }
 
