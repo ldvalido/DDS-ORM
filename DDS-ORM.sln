@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{05BA8D20-9ED6-4CFD-A183-A0B1BD31EF35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{D68B6062-F212-413D-80E7-2E4810BCE1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO.EntityFramework", "DAO.EntityFramework\DAO.EntityFramework.csproj", "{7BF50227-C03A-43DE-B66D-508843A2329B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO.EntityFramework.Testing", "DAO.EntityFramework.Testing\DAO.EntityFramework.Testing.csproj", "{3D67A943-0E72-466B-9E43-C53BAADBEE21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D68B6062-F212-413D-80E7-2E4810BCE1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68B6062-F212-413D-80E7-2E4810BCE1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68B6062-F212-413D-80E7-2E4810BCE1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68B6062-F212-413D-80E7-2E4810BCE1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF50227-C03A-43DE-B66D-508843A2329B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF50227-C03A-43DE-B66D-508843A2329B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF50227-C03A-43DE-B66D-508843A2329B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF50227-C03A-43DE-B66D-508843A2329B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D67A943-0E72-466B-9E43-C53BAADBEE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D67A943-0E72-466B-9E43-C53BAADBEE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D67A943-0E72-466B-9E43-C53BAADBEE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D67A943-0E72-466B-9E43-C53BAADBEE21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D67A943-0E72-466B-9E43-C53BAADBEE21} = {05BA8D20-9ED6-4CFD-A183-A0B1BD31EF35}
+	EndGlobalSection
+EndGlobal
