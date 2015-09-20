@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
 using DAO.EntityFramework.Configuration;
 using Entity;
+using MySql.Data.Initializer;
 
 namespace DAO.EntityFramework.Context
 {
@@ -8,8 +9,7 @@ namespace DAO.EntityFramework.Context
     {
         public DDSORMDbContext() : base("DDORMCnnStr")
         {
-            Database.SetInitializer(new MySqlInitializer<DropCreateDatabaseAlways<DDSORMDbContext> ());
-            //Database.SetInitializer(new DropCreateDatabaseAlways<DDSORMDbContext>());
+            Database.SetInitializer(new MySqlDropCreateDatabaseAlways<DDSORMDbContext>());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
