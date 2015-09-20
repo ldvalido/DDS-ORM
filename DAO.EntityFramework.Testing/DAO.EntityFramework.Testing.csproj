@@ -56,6 +56,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -67,6 +68,7 @@
   <ItemGroup>
     <Compile Include="ClienteSeedTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetupFixture.cs" />
     <Compile Include="SKUSeedTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +85,10 @@
     <ProjectReference Include="..\Entity\Entity.csproj">
       <Project>{d68b6062-f212-413d-80e7-2e4810bce1c4}</Project>
       <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MySql.Data.Initializer\MySql.Data.Initializer.csproj">
+      <Project>{d88a216b-c783-493f-a7d4-5040025b93da}</Project>
+      <Name>MySql.Data.Initializer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

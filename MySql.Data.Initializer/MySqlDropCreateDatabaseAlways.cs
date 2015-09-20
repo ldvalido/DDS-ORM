@@ -8,7 +8,7 @@ namespace MySql.Data.Initializer
         {
             context.Database.Delete();
             context.Database.Create();
-            return true;
+            return false;
         }
     }
 }

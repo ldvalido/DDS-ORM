@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MySqlConfiguration.cs" />
     <Compile Include="MySqlCreateDatabaseIfNotExists.cs" />
     <Compile Include="MySqlDropCreateDatabaseAlways.cs" />
     <Compile Include="MySqlDropCreateDatabaseIfModelChanges.cs" />
